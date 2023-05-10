@@ -2,7 +2,7 @@
 
 Examples of docker-compose using keycloak(jboss and quay.io version) with postgres
 
-## Quay.io
+## Quay.io (Keycloak version 21.0.1
 ```yaml
 version: '3'
 
@@ -50,7 +50,7 @@ networks:
     driver: bridge
 ```
 
-## Jboss
+## Jboss (Keycloak version 16.1.1)
 ```yaml
 version: '3'
 
